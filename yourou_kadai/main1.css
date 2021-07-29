@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+body{font-family: serif;}
+
+.box{ /*親div*/
+  position: relative;/*相対配置*/
+    }
+  
+.box p {
+    position: absolute;/*絶対配置*/
+    color:rgb(88, 88, 88);/*文字は白に*/
+   
+    font-family: serif;
+    top: 40%;
+    left: 18%;
+    
+    
+    }
+  
+.box2{ /*親div*/
+      position: relative;/*相対配置*/
+        }
+      
+.box2 p,h3 {
+      position: absolute;/*絶対配置*/
+      color:rgb(88, 88, 88);/*文字は白に*/
+     
+      font-family: serif;
+      top: 22%;
+      left: 8%;
+      
+      
+      }
+  .box img {
+    width: 100%;
+    vertical-align: bottom;
+    }
+
+
+.hyousi{ font-weight:700;
+    font-size: 2em;
+   }
+
+ .mokuteki{text-align: center;
+          font-size: 15px;
+  }
+
+.prof{text-align: center;
+  font-size: 15px;}
+
+.box3{ /*親div*/
+    position: relative;/*相対配置*/
+      }
+    
+.box3 p{
+    position: absolute;/*絶対配置*/
+    color:rgb(255, 255, 255);/*文字は白に*/
+   
+    font-family: serif;
+    top: 2%;
+    left: 0%;
+    line-height: 45px;
+    
+    }
+
+    .box4{ /*親div*/
+      position: relative;/*相対配置*/
+        }
+      
+.box4 img{
+      position: absolute;/*絶対配置*/
+      color:rgb(88, 88, 88);/*文字は白に*/
+     
+      font-family: serif;
+      top: 22%;
+      left: 8%;
+      
+      
+      }
+
+
+
+
+      .sample-box {
+        margin: 80px;
+        position: relative;
+       
+        top: 100%;
+        left: -10%;
+    }
+    
+    .good img {
+       
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      
+      position: absolute;
+      top: 22%;
+      left: 15%;
+    }
+    .good p{color:rgb(88, 88, 88); 
+      font-size: 35px;
+      font-weight:700;
+      top: 5%;
+      left: 15%;
+    }
+    .sample-box2 {
+      
+      margin-top: -70px;
+      margin-bottom: 70px;
+      position: relative;
+     
+      top: 50%;
+      right: 20%;
+  }
+  
+  .good2 img {
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    position: absolute;
+    top: 22%;
+    right: -5%;
+  }
+  .good2 p{color:rgb(88, 88, 88); 
+    font-size: 35px;
+    font-weight:700;
+    top: 5%;
+    right: -75%;
+  }
+
+  .sample-box3 {
+    vertical-align: middle;
+
+    margin-top: 70px;
+   
+    position: relative;
+   
+    top: 50%;
+    
+}
+
+.good3 img {
+  vertical-align: bottom;
+ margin-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  position: absolute;
+  top: -35%;
+  right: 25%;
+}
+.good3 p{color:rgb(88, 88, 88); 
+  transform: rotate( 53deg );
+  font-size: 35px;
+  font-weight:700;
+  top: 5%;
+  right: 10%;
+}
+
+
+
+.good4 img {
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+.good4 p{color:rgb(88, 88, 88); 
+  transform: rotate( -40deg );
+  font-size: 35px;
+  font-weight:700;
+  top: 61%;
+  right: -40%;
+}
+.ma1{ 
+  }
+
+  
+
+  .DivLink {
+    position:relative;
+    width: 280px;
+    height: 96px;
+   
+}
+
+.DivLink .Link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
